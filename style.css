@@ -1,4 +1,29 @@
-body {background-color:tan;}
-h1{color:green;}
+body { 
+    background-color: black;
+    font-family: arial;
+    color: white;
+    display: flex;
+    /* these rules are necessary to center maindiv */
+    align-items: center;
+    justify-content: center;
+}
 
+h1{
+    color: grey;
+    font-family: verdana;
+}
 
+.maindiv { 
+    background-color: white;
+    color: black;
+    width: 300px; /* 300px was explicitly given in instructions, though this does not match mock up. */
+    padding: 20px;
+    border-radius: 25px; 
+    align-items: center;
+    justify-content: center;
+}
+
+footer { 
+    align-items: center;
+    justify-content: center;
+}
