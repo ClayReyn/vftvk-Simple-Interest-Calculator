@@ -29,9 +29,3 @@ function updateRate() {
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText = rateval + '%';
 }
-
-function updateNumYears() { 
-    updateNum = document.getElementById("years-dropdown").value;
-    console.log(updateNum);
-    document.getElementById("years").innerHTML = updateNum;
-}
